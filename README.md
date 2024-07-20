@@ -73,3 +73,14 @@ Your psql db should be good to go :)
     conda create --name arc_env python=3.11
     conda activate arc_env
     pip install -r requirements.txt
+
+### Hackathon Build Plans:
+0. JavaScript WebUI wrapper for python script, Nginx?
+https://nginx.org/en/
+
+1. SearchXNG or Brave Search API for Data Scraping
+https://github.com/searxng/searxng
+https://brave.com/search/api/
+
+2. Implement Crew Ai for agent swarms and mass email, and posting
+https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/
