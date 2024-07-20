@@ -74,8 +74,8 @@ Your psql db should be good to go :)
     pip install -r requirements.txt
 
 ### Hackathon Build Plans:
-0. JavaScript WebUI wrapper for python script, Nginx?
-https://nginx.org/en/
+0. Peer 2 Peer network: for peer 2 peer messaging
+https://github.com/macsnoeren/python-p2p-network
 
 1. SearchXNG or Brave Search API for Data Scraping
 https://github.com/searxng/searxng
