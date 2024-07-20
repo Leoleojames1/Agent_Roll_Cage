@@ -59,6 +59,35 @@ ARC will be WillFreeAI's primary deployment platform for libraries of agentic fr
    [CUDA Installation Guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
 3. **Install PostgreSQL (psql)**:
    [PostgreSQL Installation Guide](https://www.postgresql.org/download/)
+4. **Open psql shell, enter default commands, and follow database setup template below:**
+
+CREATE USER your_username WITH PASSWORD 'your_password' SUPERUSER;
+CREATE DATABASE memory_agent;
+GRANT ALL PRIVILEGES ON SCHEMA public TO your_username;
+GRANT ALL PRIVILEGES ON DATABASE memory_agent TO your_username;
+\c memory_agent
+
+SELECT * FROM conversations;
+
+CREATE TABLE conversations (
+    id SERIAL PRIMARY KEY,
+    timestamp TIMESTAMP,
+    prompt TEXT NOT NULL,
+    response TEXT NOT NULL
+);
+
+INSERT INTO conversations (timestamp, prompt, response) 
+VALUES 
+(NOW(), 'Example prompt 1', 'Example response 1'),
+(NOW(), 'Example prompt 2', 'Example response 2'),
+(NOW(), 'Example prompt 3', 'Example response 3');
+SELECT * FROM conversations;
+GRANT ALL PRIVILEGES ON TABLE conversations TO [name];
+GRANT USAGE, SELECT ON SEQUENCE conversations_id_seq TO [name];
+
+\q
+
+Your psql db should be good to go :)
 
 ### Ollama Setup
 1. **Install Nomic Model in Ollama**:
