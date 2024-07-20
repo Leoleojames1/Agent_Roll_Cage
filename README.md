@@ -1,4 +1,8 @@
 # Agent Roll Cage (ARC) V0.1
+ARC will be WillFreeAI's primary deployment platform for libraries of agentic frameworks. It will host open-source fine-tuned models for specialized agents, including those for function calling, programming, LaTeX mathematics, synthetic dataset generation, and more. Our goal with ARC is to create a comprehensive platform that supports the development and deployment of advanced agentic systems, making powerful AI tools accessible to everyone.
+
+## Announcing WillFreeAI: Revolutionizing AI Agentic Frameworks
+Artificial intelligence is the most rapidly growing technology in the world. From everyday people to companies and organizations, AI has made revolutionary changes that will ultimately bear fruit for our world, our children, and our legacy. I am excited to announce the founding of WillFreeAI, an open-source AI software organization devoted to Supervised Fine Tuning with an emphasis on Multimodal Super Alignment by Building Agentic Framework Action Spaces & Intercommunication Protocols.
 
 <img
 src="docs/ARC_05_lablab.jpeg"
@@ -6,18 +10,13 @@ src="docs/ARC_05_lablab.jpeg"
 
 ## Welcome to the Llama 3 Hackathon!
 Get ready for an exciting adventure in app development with Llama 3 - join us for our online AI hackathon!
+
 🏆 Win an opportunity to participate in the Lablab NEXT acceleration program, exciting cash prizes, credits, and gear from LlamaIndex, Together AI & Zilliz.
 ***[🦾LabLab.ai Llama3 Hackathon🦿](https://lablab.ai/event/llama-3-ai-hackathon)
 
 <img
 src="docs/llama3_hackathon.jpeg"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
-
-## Announcing WillFreeAI: Revolutionizing AI Agentic Frameworks
-Artificial intelligence is the most rapidly growing technology in the world. From everyday people to companies and organizations, AI has made revolutionary changes that will ultimately bear fruit for our world, our children, and our legacy. I am excited to announce the founding of WillFreeAI, an open-source AI software organization devoted to Supervised Fine Tuning with an emphasis on Multimodal Super Alignment by Building Agentic Framework Action Spaces & Intercommunication Protocols.
-
-## Agent Roll Cage (ARC) V1.0
-ARC will be WillFreeAI's primary deployment platform for libraries of agentic frameworks. It will host open-source fine-tuned models for specialized agents, including those for function calling, programming, LaTeX mathematics, synthetic dataset generation, and more. Our goal with ARC is to create a comprehensive platform that supports the development and deployment of advanced agentic systems, making powerful AI tools accessible to everyone.
 
 ## Installation Instructions
 
