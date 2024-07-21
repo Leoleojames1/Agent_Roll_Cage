@@ -2,6 +2,7 @@
 ARC will be WillFreeAI's primary deployment platform for libraries of agentic frameworks. It will host open-source fine-tuned models for specialized agents, including those for function calling, programming, LaTeX mathematics, synthetic dataset generation, and more. Our goal with ARC is to create a comprehensive platform that supports the development and deployment of advanced agentic systems, making powerful AI tools accessible to everyone.
 
 ## Announcing WillFreeAI: Revolutionizing AI Agentic Frameworks
+https://www.linkedin.com/pulse/building-agentic-action-space-frameworks-willfreeai-8enre/?trackingId=V1T6bxZ0Sg6NKYUaBlciiw%3D%3D
 Artificial intelligence is the most rapidly growing technology in the world. From everyday people to companies and organizations, AI has made revolutionary changes that will ultimately bear fruit for our world, our children, and our legacy. I am excited to announce the founding of WillFreeAI, an open-source AI software organization devoted to Supervised Fine Tuning with an emphasis on Multimodal Super Alignment by Building Agentic Framework Action Spaces & Intercommunication Protocols.
 
 <img
