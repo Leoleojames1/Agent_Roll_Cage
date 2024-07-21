@@ -5,7 +5,7 @@
     Local_Sledge_Embedding Written by @smokeybandit a.k.a. @Wayne Sletcher,
     
     Modified as Agent_Flow.py by
-    @Borch, @Kodoq @Faiqai 7/19/2024
+    @Borch, @Moez Ali Khan, @Faiqai 7/19/2024
      
 """
 
@@ -16,6 +16,14 @@ import ast
 from colorama import Fore
 from tqdm import tqdm
 from psycopg.rows import dict_row
+
+#TODO LIST
+# 1. CREWAI
+# 2. DUCKDUCKGO SEARCH API
+# 3. GOOGLE SPEECH RECOGNITION
+# 4. COQUI TEXT TO SPEECH
+# 5. VERCEL JAVASCRIPT WEBUI
+# 6. CLASS STRUCTURE TO PROGRAM
 
 client = chromadb.Client()
 

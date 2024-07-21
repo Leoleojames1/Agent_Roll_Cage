@@ -19,4 +19,4 @@ export OLLAMA_FLASH_ATTENTION=1
 export PGPASSWORD=admin
 
 # Run Python script
-python Sledge_Phising.py
+python Local_Sledge_Embedding.py
