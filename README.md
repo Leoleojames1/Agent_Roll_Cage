@@ -1,4 +1,8 @@
 # Agent Roll Cage (ARC) V0.1
+ARC will be WillFreeAI's primary deployment platform for libraries of agentic frameworks. It will host open-source fine-tuned models for specialized agents, including those for function calling, programming, LaTeX mathematics, synthetic dataset generation, and more. Our goal with ARC is to create a comprehensive platform that supports the development and deployment of advanced agentic systems, making powerful AI tools accessible to everyone.
+
+## Announcing WillFreeAI: Revolutionizing AI Agentic Frameworks
+Artificial intelligence is the most rapidly growing technology in the world. From everyday people to companies and organizations, AI has made revolutionary changes that will ultimately bear fruit for our world, our children, and our legacy. I am excited to announce the founding of WillFreeAI, an open-source AI software organization devoted to Supervised Fine Tuning with an emphasis on Multimodal Super Alignment by Building Agentic Framework Action Spaces & Intercommunication Protocols.
 
 <img
 src="docs/ARC_05_lablab.jpeg"
@@ -7,48 +11,12 @@ src="docs/ARC_05_lablab.jpeg"
 ## Welcome to the Llama 3 Hackathon!
 Get ready for an exciting adventure in app development with Llama 3 - join us for our online AI hackathon!
 
-⌚ Dive into a 48-hour journey of creativity.
-
-🚀 Compete to craft an app supercharged by Llama 3.
-
-🎓 Expert mentors will guide you every step of the way.
-
 🏆 Win an opportunity to participate in the Lablab NEXT acceleration program, exciting cash prizes, credits, and gear from LlamaIndex, Together AI & Zilliz.
 ***[🦾LabLab.ai Llama3 Hackathon🦿](https://lablab.ai/event/llama-3-ai-hackathon)
 
 <img
 src="docs/llama3_hackathon.jpeg"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
-
-## About Llama 3
-Introducing the New 8B and 70B Parameter Llama 3 Models. Llama 3 represents a major leap over Llama 2, establishing a new state-of-the-art for large language models (LLMs) at these scales.
-
-🚀 **State-of-the-Art Performance:**
-- Best models available today at the 8B and 70B parameter scale.
-
-🎛️ **Greater Steerability:**
-- More controllable and adaptable model responses.
-
-🔄 **Enhanced Pretraining and Post-Training:**
-- Substantially reduced false refusal rates.
-- Improved alignment and increased diversity in model responses.
-
-💡 **Improved Capabilities:**
-- Enhanced reasoning.
-- Advanced code generation.
-- Better instruction following.
-
-🧑🏻‍💻 Sign up before the Kick-Off Stream to secure your spot!
-
-[Sign Up Here](https://www.linkedin.com/pulse/building-agentic-action-space-frameworks-willfreeai-8enre/?trackingId=MEw0Xp7tQM%2BNUrjbjTLCvw%3D%3D)
-
-## Announcing WillFreeAI: Revolutionizing AI Agentic Frameworks
-Artificial intelligence is the most rapidly growing technology in the world. From everyday people to companies and organizations, AI has made revolutionary changes that will ultimately bear fruit for our world, our children, and our legacy.
-
-I am excited to announce the founding of WillFreeAI, an open-source AI software organization devoted to Supervised Fine Tuning with an emphasis on Multimodal Super Alignment by Building Agentic Framework Action Spaces & Intercommunication Protocols.
-
-## Agent Roll Cage (ARC) V1.0
-ARC will be WillFreeAI's primary deployment platform for libraries of agentic frameworks. It will host open-source fine-tuned models for specialized agents, including those for function calling, programming, LaTeX mathematics, synthetic dataset generation, and more. Our goal with ARC is to create a comprehensive platform that supports the development and deployment of advanced agentic systems, making powerful AI tools accessible to everyone.
 
 ## Installation Instructions
 
@@ -59,6 +27,35 @@ ARC will be WillFreeAI's primary deployment platform for libraries of agentic fr
    [CUDA Installation Guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
 3. **Install PostgreSQL (psql)**:
    [PostgreSQL Installation Guide](https://www.postgresql.org/download/)
+4. **Open psql shell, enter default commands, and follow database setup template below:**
+
+CREATE USER your_username WITH PASSWORD 'your_password' SUPERUSER;
+CREATE DATABASE memory_agent;
+GRANT ALL PRIVILEGES ON SCHEMA public TO your_username;
+GRANT ALL PRIVILEGES ON DATABASE memory_agent TO your_username;
+\c memory_agent
+
+SELECT * FROM conversations;
+
+CREATE TABLE conversations (
+    id SERIAL PRIMARY KEY,
+    timestamp TIMESTAMP,
+    prompt TEXT NOT NULL,
+    response TEXT NOT NULL
+);
+
+INSERT INTO conversations (timestamp, prompt, response) 
+VALUES 
+(NOW(), 'Example prompt 1', 'Example response 1'),
+(NOW(), 'Example prompt 2', 'Example response 2'),
+(NOW(), 'Example prompt 3', 'Example response 3');
+SELECT * FROM conversations;
+GRANT ALL PRIVILEGES ON TABLE conversations TO [name];
+GRANT USAGE, SELECT ON SEQUENCE conversations_id_seq TO [name];
+
+\q
+
+Your psql db should be good to go :)
 
 ### Ollama Setup
 1. **Install Nomic Model in Ollama**:
@@ -75,3 +72,14 @@ ARC will be WillFreeAI's primary deployment platform for libraries of agentic fr
     conda create --name arc_env python=3.11
     conda activate arc_env
     pip install -r requirements.txt
+
+### Hackathon Build Plans:
+0. Peer 2 Peer network: for peer 2 peer messaging
+https://github.com/macsnoeren/python-p2p-network
+
+1. SearchXNG or Brave Search API for Data Scraping
+https://github.com/searxng/searxng
+https://brave.com/search/api/
+
+2. Implement Crew Ai for agent swarms and mass email, and posting
+https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/
