@@ -7,7 +7,7 @@ src="docs/ARC_POSTER_2.jpg "
 
 ## Running ARC:
 <img
-src="docs/Memorize_test.png"
+src="docs/memorize_test.png"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
 
 ## Installation Instructions
