@@ -44,9 +44,11 @@ src="docs/ARC_05_lablab.jpeg"
     ```
 2. **Install CUDA and cuDNN**:
    [CUDA Installation Guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
+   
    a.) run installer for CUDA
    b.) run installer for CUDNN
    c.) run cuda_merge_cudnn.cmd
+   
 4. **Install PostgreSQL (psql)**:
    [PostgreSQL Installation Guide](https://www.postgresql.org/download/)
 
