@@ -7,10 +7,13 @@ https://www.linkedin.com/pulse/building-agentic-action-space-frameworks-willfree
 Artificial intelligence is the most rapidly growing technology in the world. From everyday people to companies and organizations, AI has made revolutionary changes that will ultimately bear fruit for our world, our children, and our legacy. I am excited to announce the founding of WillFreeAI, an open-source AI software organization devoted to Supervised Fine Tuning with an emphasis on Multimodal Super Alignment by Building Agentic Framework Action Spaces & Intercommunication Protocols.
 
 <img
-src="docs/ARC_05_lablab.jpeg"
+src="docs/ARC_POSTER_2.jpg "
   style="display: inline-block; margin: 0 auto; max-width: 50px">
 
 ## Installation Instructions
+<img
+src="docs/ARC_05_lablab.jpeg"
+  style="display: inline-block; margin: 0 auto; max-width: 50px">
 
 ### Prerequisites
 1. **Install Miniconda 3**: 
