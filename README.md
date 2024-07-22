@@ -82,19 +82,7 @@ GRANT USAGE, SELECT ON SEQUENCE conversations_id_seq TO [name];
 \q
 ```
 
-
-
-
-
-
-
-## Hackathon Team's
-Get ready for an exciting adventure in app development with Llama 3 - join us for our online AI hackathon!
-
-🏆 Win an opportunity to participate in the Lablab NEXT acceleration program, exciting cash prizes, credits, and gear from LlamaIndex, Together AI & Zilliz.
-***[🦾LabLab.ai Llama3 Hackathon🦿](https://lablab.ai/event/llama-3-ai-hackathon)
-
-### Hackathon Build Plans:
+### Build Plans:
 1. Ooobabooga Gradio Local WebUI
 https://github.com/oobabooga/text-generation-webui
 
