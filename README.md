@@ -1,13 +1,13 @@
-# Agent Roll Cage (ARC) V0.1
-ARC will be WillFreeAI's primary deployment platform for libraries of agentic frameworks. It will host open-source fine-tuned models for specialized agents, including those for function calling, programming, LaTeX mathematics, synthetic dataset generation, and more. Our goal with ARC is to create a comprehensive platform that supports the development and deployment of advanced agentic systems, making powerful AI tools accessible to everyone.
-
-## Announcing WillFreeAI: Revolutionizing AI Agentic Frameworks
-https://www.linkedin.com/pulse/building-agentic-action-space-frameworks-willfreeai-8enre/?trackingId=V1T6bxZ0Sg6NKYUaBlciiw%3D%3D
-
-Artificial intelligence is the most rapidly growing technology in the world. From everyday people to companies and organizations, AI has made revolutionary changes that will ultimately bear fruit for our world, our children, and our legacy. I am excited to announce the founding of WillFreeAI, an open-source AI software organization devoted to Supervised Fine Tuning with an emphasis on Multimodal Super Alignment by Building Agentic Framework Action Spaces & Intercommunication Protocols.
+![image](https://github.com/user-attachments/assets/19d2184e-3520-4f49-9961-5d774e6d075c)# Agent Roll Cage (ARC) V0.1
+Agent Roll Cage, also known as ARC, is the Successor TO Ollama Agent Roll Cage (OARC). The ARC agentic framework aims to be a lightweight version of OARC, and ultimately will allow Speech to Speech Function calling though whisper, ollama, and coqui, with its supported Nomic embedding model for knowledge base building and retrieval augmented generation.
 
 <img
 src="docs/ARC_POSTER_2.jpg "
+  style="display: inline-block; margin: 0 auto; max-width: 50px">
+
+## Running ARC:
+<img
+src="docs/Memorize_test.png"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
 
 ## Installation Instructions
