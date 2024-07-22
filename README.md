@@ -6,6 +6,14 @@ src="docs/ARC_POSTER_2.jpg "
   style="display: inline-block; margin: 0 auto; max-width: 50px">
 
 ## Running ARC:
+Agent Roll Cage can be launch by running the local_sledge_embedding_py.cmd
+
+```cmd
+/memorize "prompt" ---> store memory in nomic vector embedding
+/recall "prompt" ---> recall memory in nomic vector embedding
+/forget ---> clear the current conversation history and forget memories
+```
+
 <img
 src="docs/memorize_test.png"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
@@ -15,17 +23,36 @@ src="docs/memorize_test.png"
 src="docs/ARC_05_lablab.jpeg"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
 
-### Prerequisites
-1. **Install Miniconda 3**: 
-   [Miniconda Installation Guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+Your psql db should be good to go :)
 
+### Ollama Setup
+1. Install Ollama:
+[Ollama Installer](https://ollama.com/)
+1. **Install Nomic Model in Ollama**:
+    ```bash
+    ollama pull nomic-embed-text
+
+2. **Install Llama 3 in Ollama**:
+    ```bash
+    ollama pull llama3
+
+### Miniconda3
+1. **Setup**:
+   [Miniconda Installation Guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+    ```bash
+    conda create --name arc_env python=3.11
+    conda activate arc_env
+    pip install -r requirements.txt
+    ```
 2. **Install CUDA and cuDNN**:
    [CUDA Installation Guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
-
-3. **Install PostgreSQL (psql)**:
+   a.) run installer for CUDA
+   b.) run installer for CUDNN
+   c.) run cuda_merge_cudnn.cmd
+4. **Install PostgreSQL (psql)**:
    [PostgreSQL Installation Guide](https://www.postgresql.org/download/)
 
-4. **Open psql shell, enter default commands, and follow database setup template below:**
+5. **Open psql shell, enter default commands, and follow database setup template below:**
 
 ```sql
 CREATE USER your_username WITH PASSWORD 'your_password' SUPERUSER;
@@ -55,23 +82,10 @@ GRANT USAGE, SELECT ON SEQUENCE conversations_id_seq TO [name];
 \q
 ```
 
-Your psql db should be good to go :)
 
-### Ollama Setup
-1. **Install Nomic Model in Ollama**:
-    ```bash
-    ollama pull nomic-model
 
-2. **Install Llama 3 in Ollama**:
-    ```bash
-    ollama pull llama-3
 
-### Miniconda3
-1. **Setup**:
-    ```bash
-    conda create --name arc_env python=3.11
-    conda activate arc_env
-    pip install -r requirements.txt
+
 
 
 ## Hackathon Team's
