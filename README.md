@@ -22,9 +22,7 @@ src="docs/memorize_test.png"
 <img
 src="docs/ARC_05_lablab.jpeg"
   style="display: inline-block; margin: 0 auto; max-width: 50px">
-
-Your psql db should be good to go :)
-
+  
 ### Ollama Setup
 1. Install Ollama:
 [Ollama Installer](https://ollama.com/)
@@ -81,6 +79,8 @@ GRANT USAGE, SELECT ON SEQUENCE conversations_id_seq TO [name];
 
 \q
 ```
+
+Your psql db should be good to go :)
 
 ### Build Plans:
 1. Ooobabooga Gradio Local WebUI
