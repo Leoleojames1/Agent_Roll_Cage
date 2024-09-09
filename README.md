@@ -4,6 +4,7 @@ Agent Roll Cage, also known as ARC, is the Successor TO Ollama Agent Roll Cage (
 [Banditofsmoke/Local_RAG_Nomic](https://github.com/banditofsmoke/Local_RAG_Nomic)
 
 [Ollama Agent Roll Cage Repo](https://github.com/Leoleojames1/ollama_agent_roll_cage)
+
 <img
 src="docs/ARC_POSTER_2.jpg "
   style="display: inline-block; margin: 0 auto; max-width: 50px">
