@@ -1,5 +1,7 @@
 # Agent Roll Cage (ARC) V0.1
-Agent Roll Cage, also known as ARC, is the Successor TO Ollama Agent Roll Cage (OARC). The ARC agentic framework aims to be a lightweight version of OARC, and ultimately will allow Speech to Speech Function calling though whisper, ollama, and coqui, with its supported Nomic embedding model for knowledge base building and retrieval augmented generation.
+Agent Roll Cage, also known as ARC, is the Successor TO Ollama Agent Roll Cage (OARC). The ARC agentic framework aims to be a lightweight version of OARC, and ultimately will allow Speech to Speech Function calling though whisper, ollama, and coqui, with its supported Nomic embedding model for knowledge base building and retrieval augmented generation. This Rag system was designed by @banditofsmoke called banditofsmoke/Local_RAG_Nomic
+
+[Banditofsmoke/Local_RAG_Nomic](https://github.com/banditofsmoke/Local_RAG_Nomic)
 
 [Ollama Agent Roll Cage Repo](https://github.com/Leoleojames1/ollama_agent_roll_cage)
 <img
